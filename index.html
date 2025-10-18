@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AffiBot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #5865f2, #7289da);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .affibot-text {
+            font-size: 12vw;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+            line-height: 1;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            max-width: 600px;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .affibot-text {
+                font-size: 8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .affibot-text {
+                font-size: 4rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="affibot-text">AffiBot</h1>
+    <p class="subtitle">Discord Server Subscription Manager</p>
+</body>
+</html>
